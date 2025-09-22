@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    printf("Masukkan angka pertama: ");
+    scanf("%d", &a);
+    printf("Masukkan angka kedua: ");
+    scanf("%d", &b);
+
+    printf("Hasil Tambah  : %d\n", a + b);
+    printf("Hasil Kurang  : %d\n", a - b);
+    printf("Hasil Kali    : %d\n", a * b);
+    printf("Hasil Bagi    : %d\n", a / b);   // pembagian bulat
+    printf("Hasil Modulo  : %d\n", a % b);   // sisa pembagian
+
+    return 0;
+}
